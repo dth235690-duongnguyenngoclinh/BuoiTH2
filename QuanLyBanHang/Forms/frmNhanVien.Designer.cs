@@ -52,12 +52,12 @@
             label1 = new Label();
             txtHoVaTen = new TextBox();
             groupBox1 = new GroupBox();
+            cboQuyenHan = new ComboBox();
             txtMatKhau = new TextBox();
             txtTenDangNhap = new TextBox();
             label6 = new Label();
             label5 = new Label();
             label4 = new Label();
-            cboQuyenHan = new ComboBox();
             ((System.ComponentModel.ISupportInitialize)dataGridView).BeginInit();
             groupBox2.SuspendLayout();
             groupBox1.SuspendLayout();
@@ -209,7 +209,7 @@
             // groupBox2
             // 
             groupBox2.Controls.Add(dataGridView);
-            groupBox2.Location = new Point(13, 203);
+            groupBox2.Location = new Point(12, 203);
             groupBox2.Name = "groupBox2";
             groupBox2.Size = new Size(983, 270);
             groupBox2.TabIndex = 8;
@@ -300,6 +300,14 @@
             groupBox1.TabStop = false;
             groupBox1.Text = "Thông tin nhân viên";
             // 
+            // cboQuyenHan
+            // 
+            cboQuyenHan.FormattingEnabled = true;
+            cboQuyenHan.Location = new Point(462, 113);
+            cboQuyenHan.Name = "cboQuyenHan";
+            cboQuyenHan.Size = new Size(171, 28);
+            cboQuyenHan.TabIndex = 19;
+            // 
             // txtMatKhau
             // 
             txtMatKhau.Location = new Point(462, 72);
@@ -340,14 +348,6 @@
             label4.Size = new Size(130, 20);
             label4.TabIndex = 9;
             label4.Text = "Tên đăng nhập (*):";
-            // 
-            // cboQuyenHan
-            // 
-            cboQuyenHan.FormattingEnabled = true;
-            cboQuyenHan.Location = new Point(462, 113);
-            cboQuyenHan.Name = "cboQuyenHan";
-            cboQuyenHan.Size = new Size(171, 28);
-            cboQuyenHan.TabIndex = 19;
             // 
             // frmNhanVien
             // 
